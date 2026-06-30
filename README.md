@@ -8,34 +8,22 @@ My work sits at the intersection of experimental battery characterisation, elect
 
 ### Battery monitoring and modelling resources
 
-- [Iontech](https://github.com/shiyunliu-battery/Iontech)  
-  Open-source battery monitoring and modelling resources.
+- [Iontech](https://github.com/shiyunliu-battery/Iontech) curates open-source datasets and resources for battery monitoring, state estimation, degradation analysis, and thermal-electrochemical modelling.
 
 ### Battery data infrastructure
 
-- [battery-data-standard](https://github.com/shiyunliu-battery/battery-data-standard)  
-  Python library and CLI for converting battery cycler exports into clean, analysis-ready CSV and Parquet files, with intake QA and metadata-aware processing.
-
-This project addresses one of the most common bottlenecks in battery research: inconsistent raw cycler exports. It provides a structured data layer for downstream diagnostics, degradation modelling, and algorithm validation.
+- [battery-data-standard](https://github.com/shiyunliu-battery/battery-data-standard) is a local Python library and command-line tool for converting battery cycler exports into validated, analysis-ready CSV or Parquet files with auditable conversion reports.
 
 ### Electrochemical and degradation diagnostics
 
-- [Battery-EIS-Fit](https://github.com/shiyunliu-battery/Battery-EIS-Fit)  
-  Python tools for electrochemical impedance spectroscopy fitting and equivalent-circuit parameter analysis.
+- [Battery-EIS-Fit](https://github.com/shiyunliu-battery/Battery-EIS-Fit) is a lightweight Python package for fitting electrochemical impedance spectroscopy data and extracting equivalent-circuit parameters.
 
-- [Battery-Feature-Lab](https://github.com/shiyunliu-battery/Battery-Feature-Lab)  
-  Feature-engineering toolkit for battery degradation analysis, cycle-level summaries, diagnostic evidence extraction, and reproducible ageing studies.
-
-These repositories focus on extracting interpretable diagnostic information from battery experiments, including impedance parameters, degradation-sensitive features, and structured evidence for capacity-fade analysis.
+- [Battery-Feature-Lab](https://github.com/shiyunliu-battery/Battery-Feature-Lab) extracts battery cycling features from BDS-style exports and common cycler tables for SOH/RUL modelling, feature screening, explainability, and diagnostic summaries.
 
 ### State estimation and BMS algorithm examples
 
-- [LFP-ARSR-EKF](https://github.com/shiyunliu-battery/LFP-ARSR-EKF)  
-  OCV-region-aware SOC estimation and closed-loop BMS validation framework for LiFePO4 batteries.
-
-This MATLAB framework implements bounded online effective ECM parameter adaptation, region-aware EKF correction, closed-loop current limiting, robustness testing, and automated regression checks. The project demonstrates an engineering-style workflow for battery algorithm development rather than a single-script SOC estimation example.
+- [LFP-ARSR-EKF](https://github.com/shiyunliu-battery/LFP-ARSR-EKF) is a MATLAB battery-algorithm validation framework for LiFePO4 SOC estimation using OCV-region-aware ARSR-EKF, closed-loop BMS simulation, robustness testing, and automated regression checks.
 
 ### Lab assistant demo
 
-- [batterylab.online](https://github.com/shiyunliu-battery/batterylab.online)  
-  A web-based battery lab assistant demo for presenting research software, organising methods, and supporting reproducible battery analysis workflows.
+- [batterylab.online](https://github.com/shiyunliu-battery/batterylab.online) is a local, Windows-first battery lab assistant demo for registry-backed chemistry and method lookup, protocol planning, preflight QA, deterministic CSV analysis, KPI summaries, and structured reporting.
