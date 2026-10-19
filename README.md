@@ -12,7 +12,7 @@ My work sits at the intersection of experimental battery characterisation, elect
 
 ### Battery data infrastructure
 
-- [battery-data-standard](https://github.com/shiyunliu-battery/battery-data-standard) is a local Python library and command-line tool for converting battery cycler exports into validated, analysis-ready CSV or Parquet files with auditable conversion reports.
+- [battery-data-steward](https://github.com/shiyunliu-battery/battery-data-standard) is a local Python library and command-line tool for converting battery cycler exports into validated, analysis-ready CSV or Parquet files with auditable conversion reports.
 
 ### Electrochemical and degradation diagnostics
 
